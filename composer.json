@@ -1,0 +1,24 @@
+{
+  "name": "mtchabok/database",
+  "description": "PHP PDO Database Class for handling Databases",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "readme": "README.md",
+  "keywords": ["PHP PDO Database", "PDO Database", "Database Management", "Database"],
+  "authors": [
+    {
+      "name": "Mohammad Taghi Chabok",
+      "email": "mtchabok@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mtchabok\\Database\\": "src/"
+    }
+  }
+}
